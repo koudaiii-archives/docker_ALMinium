@@ -2,6 +2,18 @@
 
 SSH HTTP MYSQL accessable docker container recipe.
 
+Install [ALMinium](https://github.com/alminium/alminium)
+
+> ALMinium is easy to set up Redmine, DVCS (Git / VMercurial), Backlogs, and code review plug-in, the environment necessary for the development.
+
+### Docker Installation
+
+Install [Docker](https://gist.github.com/koudaiii/10282062#file-docker_install).
+
+Install [for mac](https://gist.github.com/koudaiii/10224422)
+
+
+
 ##Usage
 
 In Host Machine
