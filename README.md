@@ -1,4 +1,4 @@
-#Docker-ALMiniumD
+#Docker-ALMinium
 
 SSH HTTP MYSQL accessable docker container recipe.
 
@@ -53,3 +53,7 @@ MySQL access to youe container
 log
 
     https://gist.github.com/10224422.git
+
+#注意
+
+   ALMiniumのinstallShellが大きすぎてHTTPD[OK]からなかなかConsoleが帰って来ません
