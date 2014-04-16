@@ -42,14 +42,14 @@ Build container
 
 Run container
 
-    docker run -d -p 22 -p 80 -p 3306 koudaiii/alminium
+    docker run -d -p 22 -p 80 -p 3306 [user_nam]/alminium
 
 Get Port Number
 
     docker ps
 
     CONTAINER ID        IMAGE                      COMMAND                CREATED             STATUS              PORTS                                                                   NAMES
-    83db5551b293        koudaiii/alminium:latest   /usr/bin/supervisord   14 hours ago        Up 1 seconds        0.0.0.0:49164->22/tcp, 0.0.0.0:49165->3306/tcp, 0.0.0.0:49166->80/tcp   distracted_archimedes   
+    83db5551b293        [user_nam]/alminium:latest   /usr/bin/supervisord   14 hours ago        Up 1 seconds        0.0.0.0:49164->22/tcp, 0.0.0.0:49165->3306/tcp, 0.0.0.0:49166->80/tcp   distracted_archimedes   
 
 SSH access to your container
 
