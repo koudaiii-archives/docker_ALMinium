@@ -64,10 +64,6 @@ MySQL access to youe container
     mysql -h 127.0.0.1 -P port_number|49165 -u root
 
 
-log
-
-    https://gist.github.com/10224422.git
-
 #注意
 
    ALMiniumのinstallShellが大きすぎてHTTPD[OK]からなかなかConsoleが帰って来ません
