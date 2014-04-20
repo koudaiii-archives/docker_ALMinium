@@ -15,8 +15,14 @@ Install log [Docker](https://gist.github.com/koudaiii/10282062#file-docker_insta
 Network Setting [for mac](https://gist.github.com/koudaiii/10224422)
 
 
+### Use docker index(rapid start.not build image)
 
-##Usage
+    docker pull  koudaiii/alminium
+
+    docker run -d -p 22 -p 80 -p 3306 koudaiii/alminium
+
+
+##Usage(image build)
 
 In Host Machine
 
